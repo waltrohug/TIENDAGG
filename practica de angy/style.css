@@ -1,0 +1,101 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF0F5;
+    color: #5A2D82;
+    margin: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(90deg, #FF6B9D, #A45CFF);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+nav a:hover {
+    background-color: white;
+    color: #FF6B9D;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+    text-align: center;
+}
+
+.imagen-destacada {
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 1rem auto;
+}
+/* Estilos específicos para historia.html */
+.seccion-historia {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-historia h3 {
+    color: #A45CFF;
+    margin-top: 0;
+}
+
+.imagen-historia {
+    max-width: 300px;
+    border: 3px solid #FFD166;
+    margin: 1rem auto;
+}
+/* Estilos específicos para tipos.html */
+.contenedor-tipos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.tarjeta-chicle {
+    background-color: white;
+    border-radius: 15px;
+    padding: 1.5rem;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.tarjeta-chicle:hover {
+    transform: translateY(-5px);
+}
+
+.tarjeta-chicle h3 {
+    color: #FF6B9D;
+    margin-top: 0;
+}
+
+.tarjeta-chicle img {
+    max-width: 150px;
+    margin: 1rem auto 0;
+    border-radius: 10px;
+}

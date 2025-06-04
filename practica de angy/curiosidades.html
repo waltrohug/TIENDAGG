@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades del Chicle | Mundo Chicle</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos específicos para curiosidades */
+        .curiosidades-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        .curiosidad {
+            background-color: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            border-top: 5px solid #A45CFF;
+        }
+        .curiosidad:hover {
+            transform: translateY(-10px);
+        }
+        .curiosidad h3 {
+            color: #FF6B9D;
+            margin-top: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .curiosidad h3 span {
+            font-size: 1.5rem;
+        }
+        .curiosidad img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin: 1rem auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado consistente -->
+    <header>
+        <h1>🍬 Mundo Chicle</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="tipos.html">Tipos</a></li>
+                <li><a href="produccion.html">Producción</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="riesgos.html">Beneficios y Riesgos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>¡Datos que no sabías sobre los chicles! 🌈</h2>
+        
+        <div class="curiosidades-container">
+            <!-- Curiosidad 1 -->
+            <div class="curiosidad">
+                <h3><span>🕰️</span> El chicle más antiguo</h3>
+                <p>En 2007, se encontró en Finlandia un chicle de 5,000 años hecho de resina de abedul con huellas de dientes humanos.</p>
+            </div>
+
+            <!-- Curiosidad 2 -->
+            <div class="curiosidad">
+                <h3><span>🌎</span> Prohibición en Singapur</h3>
+                <p>Desde 1992, Singapur prohibió la venta de chicles para mantener limpias sus calles. ¡Solo se permiten los medicinales!</p>
+            </div>
+
+            <!-- Curiosidad 3 -->
+            <div class="curiosidad">
+                <h3><span>💥</span> Récord de burbujas</h3>
+                <p>Chad Fell ostenta el récord Guinness por hacer la burbuja de chicle más grande: ¡50.8 cm de diámetro sin usar las manos!</p>
+            </div>
+
+            <!-- Curiosidad 4 -->
+            <div class="curiosidad">
+                <h3><span>🚀</span> Chicles en el espacio</h3>
+                <p>Los astronautas usan chicles especiales en misiones para evitar la sequedad bucal causada por los sistemas de aire acondicionado.</p>
+            </div>
+        </div>
+
+        <a href="index.html" class="volver-inicio">Volver al Inicio</a>
+    </main>
+</body>
+</html>

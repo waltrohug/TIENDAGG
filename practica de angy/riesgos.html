@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneficios y Riesgos | Mundo Chicle</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos específicos para riesgos.html */
+        .contenedor-columnas {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            margin: 2rem 0;
+        }
+        
+        .columna {
+            flex: 1;
+            min-width: 300px;
+            background-color: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .beneficios {
+            border-top: 5px solid #6BDD99; /* Verde */
+        }
+        
+        .riesgos {
+            border-top: 5px solid #FF6B9D; /* Rosa */
+        }
+        
+        .lista-ventajas, .lista-riesgos {
+            padding-left: 1.5rem;
+        }
+        
+        .lista-ventajas li {
+            margin-bottom: 1rem;
+            position: relative;
+            list-style-type: "✓ ";
+            color: #2E7D32; /* Verde oscuro */
+        }
+        
+        .lista-riesgos li {
+            margin-bottom: 1rem;
+            position: relative;
+            list-style-type: "⚠️ ";
+            color: #C62828; /* Rojo */
+        }
+        
+        .icono-titulo {
+            font-size: 1.8rem;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado consistente -->
+    <header>
+        <h1>🍬 Mundo Chicle</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="tipos.html">Tipos</a></li>
+                <li><a href="produccion.html">Producción</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="riesgos.html">Beneficios y Riesgos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>El lado dulce y amargo de mascar chicle</h2>
+        
+        <div class="contenedor-columnas">
+            <!-- Columna Beneficios -->
+            <div class="columna beneficios">
+                <h3><span class="icono-titulo">👍</span> Beneficios</h3>
+                <ul class="lista-ventajas">
+                    <li>Mejora la concentración y memoria según estudios científicos</li>
+                    <li>Reduce el estrés y la ansiedad (actividad repetitiva relajante)</li>
+                    <li>Favorece la salud bucal <em>(si es sin azúcar)</em></li>
+                    <li>Aumenta la producción de saliva, ayudando a la digestión</li>
+                    <li>Puede ayudar a dejar de fumar (chicles de nicotina)</li>
+                </ul>
+            </div>
+            
+            <!-- Columna Riesgos -->
+            <div class="columna riesgos">
+                <h3><span class="icono-titulo">👎</span> Riesgos</h3>
+                <ul class="lista-riesgos">
+                    <li>Puede causar dolor mandibular por uso excesivo</li>
+                    <li>Los edulcorantes artificiales pueden tener efecto laxante</li>
+                    <li>Puede dañar empastes y ortodoncia</li>
+                    <li>Los chicles con azúcar contribuyen a las caries</li>
+                    <li>Posible impacto ambiental (no son biodegradables)</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin: 2rem 0;">
+            <p><strong>Conclusión:</strong> Disfruta los chicles con moderación y preferiblemente sin azúcar.</p>
+        </div>
+
+        <a href="index.html" class="volver-inicio">Volver al Inicio</a>
+    </main>
+</body>
+</html>

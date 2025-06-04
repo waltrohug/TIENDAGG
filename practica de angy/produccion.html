@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producción del Chicle | Mundo Chicle</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos para la línea de tiempo de producción */
+        .proceso-produccion {
+            max-width: 800px;
+            margin: 2rem auto;
+            position: relative;
+            padding-left: 50px;
+        }
+        .paso {
+            position: relative;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        .paso:before {
+            content: "";
+            position: absolute;
+            left: -30px;
+            top: 20px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: #FF6B9D;
+            border: 3px solid white;
+            z-index: 2;
+        }
+        .paso:after {
+            content: "";
+            position: absolute;
+            left: -20px;
+            top: 40px;
+            bottom: -35px;
+            width: 2px;
+            background-color: #FF6B9D;
+        }
+        .paso:last-child:after {
+            display: none;
+        }
+        .paso img {
+            max-width: 250px;
+            display: block;
+            margin: 1rem auto;
+            border-radius: 8px;
+            border: 3px solid #A45CFF;
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado consistente -->
+    <header>
+        <h1>🍬 Mundo Chicle</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="tipos.html">Tipos</a></li>
+                <li><a href="produccion.html">Producción</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="riesgos.html">Beneficios y Riesgos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>¿Cómo se fabrican los chicles?</h2>
+        
+        <div class="proceso-produccion">
+            <!-- Paso 1: Extracción -->
+            <div class="paso">
+                <h3>1. Extracción de la resina</h3>
+                <p>Se obtiene del árbol del zapote mediante incisiones en su corteza (para chicles naturales).</p>
+                <img src="images/resina.jpg" alt="Extracción de resina de chicle">
+            </div>
+            
+            <!-- Paso 2: Mezcla -->
+            <div class="paso">
+                <h3>2. Mezcla de ingredientes</h3>
+                <p>La base de chicle se combina con endulzantes, saborizantes y colorantes.</p>
+                <img src="images/mezcla.jpg" alt="Mezcla de ingredientes para chicle">
+            </div>
+            
+            <!-- Paso 3: Corte -->
+            <div class="paso">
+                <h3>3. Moldeado y corte</h3>
+                <p>La masa se estira, corta y moldea en láminas o formas específicas.</p>
+                <img src="images/corte.jpg" alt="Corte de chicles">
+            </div>
+            
+            <!-- Paso 4: Empaque -->
+            <div class="paso">
+                <h3>4. Revestimiento y empaquetado</h3>
+                <p>Los chicles se recubren con azúcar (opcional) y se envuelven individualmente.</p>
+                <img src="images/empaque.jpg" alt="Empaquetado de chicles">
+            </div>
+        </div>
+
+        <a href="index.html" class="volver-inicio">Volver al Inicio</a>
+    </main>
+</body>
+</html>
